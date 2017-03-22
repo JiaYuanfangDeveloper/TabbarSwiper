@@ -7,7 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
+#import "FirstViewController.h"
+#import "SecondViewController.h"
+#import "ThirdViewController.h"
+#import "FourthViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +19,36 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    UITabBarController *tabbarCtrl = [[UITabBarController alloc]init];
+   
+    FirstViewController *First  = [[FirstViewController alloc]init];
+    SecondViewController*Second = [[SecondViewController alloc]init];
+    ThirdViewController *Third  = [[ThirdViewController alloc]init];
+    FourthViewController*Fourth = [[FourthViewController alloc]init];
+    
+    UINavigationController *nav1 =
+                    [[UINavigationController alloc]initWithRootViewController:First];
+    UINavigationController *nav2 =
+                    [[UINavigationController alloc]initWithRootViewController:Second];
+    UINavigationController *nav3 =
+                    [[UINavigationController alloc]initWithRootViewController:Third];
+    UINavigationController *nav4 =
+                    [[UINavigationController alloc]initWithRootViewController:Fourth];
+    
+    First.title = @"First";
+    Second.title = @"Second";
+    Third.title = @"Third";
+    Fourth.title = @"Fourth";
+    
+    tabbarCtrl.viewControllers = @[nav1,nav2,nav3,nav4];
+    
+     self.window.rootViewController = tabbarCtrl;
+    
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 

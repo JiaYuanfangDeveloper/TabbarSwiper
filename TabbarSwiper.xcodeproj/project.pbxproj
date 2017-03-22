@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		56618A0A1E14ABB900B33257 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56618A091E14ABB900B33257 /* main.m */; };
-		56618A0D1E14ABB900B33257 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56618A0C1E14ABB900B33257 /* AppDelegate.m */; };
 		56618A101E14ABB900B33257 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56618A0F1E14ABB900B33257 /* ViewController.m */; };
 		56618A131E14ABB900B33257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56618A111E14ABB900B33257 /* Main.storyboard */; };
 		56618A151E14ABB900B33257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56618A141E14ABB900B33257 /* Assets.xcassets */; };
 		56618A181E14ABB900B33257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56618A161E14ABB900B33257 /* LaunchScreen.storyboard */; };
 		56618A231E14ABBA00B33257 /* TabbarSwiperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56618A221E14ABBA00B33257 /* TabbarSwiperTests.m */; };
 		56618A2E1E14ABBA00B33257 /* TabbarSwiperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56618A2D1E14ABBA00B33257 /* TabbarSwiperUITests.m */; };
+		56618A431E14ABDB00B33257 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56618A3C1E14ABDA00B33257 /* FirstViewController.m */; };
+		56618A441E14ABDB00B33257 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56618A3E1E14ABDB00B33257 /* FourthViewController.m */; };
+		56618A451E14ABDB00B33257 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56618A401E14ABDB00B33257 /* SecondViewController.m */; };
+		56618A461E14ABDB00B33257 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56618A421E14ABDB00B33257 /* ThirdViewController.m */; };
+		56618A4B1E14AF6900B33257 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56618A0C1E14ABB900B33257 /* AppDelegate.m */; };
+		56618A4E1E14B32F00B33257 /* RootTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56618A4D1E14B32F00B33257 /* RootTabbarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		56618A291E14ABBA00B33257 /* TabbarSwiperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabbarSwiperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56618A2D1E14ABBA00B33257 /* TabbarSwiperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbarSwiperUITests.m; sourceTree = "<group>"; };
 		56618A2F1E14ABBA00B33257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56618A3B1E14ABDA00B33257 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		56618A3C1E14ABDA00B33257 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		56618A3D1E14ABDA00B33257 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		56618A3E1E14ABDB00B33257 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		56618A3F1E14ABDB00B33257 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		56618A401E14ABDB00B33257 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		56618A411E14ABDB00B33257 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		56618A421E14ABDB00B33257 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		56618A4C1E14B32F00B33257 /* RootTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabbarController.h; sourceTree = "<group>"; };
+		56618A4D1E14B32F00B33257 /* RootTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabbarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +118,16 @@
 			children = (
 				56618A0B1E14ABB900B33257 /* AppDelegate.h */,
 				56618A0C1E14ABB900B33257 /* AppDelegate.m */,
+				56618A4C1E14B32F00B33257 /* RootTabbarController.h */,
+				56618A4D1E14B32F00B33257 /* RootTabbarController.m */,
+				56618A3B1E14ABDA00B33257 /* FirstViewController.h */,
+				56618A3C1E14ABDA00B33257 /* FirstViewController.m */,
+				56618A3D1E14ABDA00B33257 /* FourthViewController.h */,
+				56618A3E1E14ABDB00B33257 /* FourthViewController.m */,
+				56618A3F1E14ABDB00B33257 /* SecondViewController.h */,
+				56618A401E14ABDB00B33257 /* SecondViewController.m */,
+				56618A411E14ABDB00B33257 /* ThirdViewController.h */,
+				56618A421E14ABDB00B33257 /* ThirdViewController.m */,
 				56618A0E1E14ABB900B33257 /* ViewController.h */,
 				56618A0F1E14ABB900B33257 /* ViewController.m */,
 				56618A111E14ABB900B33257 /* Main.storyboard */,
@@ -273,9 +298,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56618A451E14ABDB00B33257 /* SecondViewController.m in Sources */,
 				56618A101E14ABB900B33257 /* ViewController.m in Sources */,
-				56618A0D1E14ABB900B33257 /* AppDelegate.m in Sources */,
+				56618A441E14ABDB00B33257 /* FourthViewController.m in Sources */,
 				56618A0A1E14ABB900B33257 /* main.m in Sources */,
+				56618A431E14ABDB00B33257 /* FirstViewController.m in Sources */,
+				56618A4E1E14B32F00B33257 /* RootTabbarController.m in Sources */,
+				56618A461E14ABDB00B33257 /* ThirdViewController.m in Sources */,
+				56618A4B1E14AF6900B33257 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
